@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="hillary_2" size="5.000000 6.250000" />
+    <ImageTarget name="Trump2" size="5.000000 6.333333" />
+    <ImageTarget name="Trump" size="5.000000 6.333333" />
+    <ImageTarget name="hillary_clinton" size="5.000000 6.250000" />
+    <ImageTarget name="Cover" size="5.000000 6.560951" />
+    <ImageTarget name="me" size="5.000000 6.666667" />
+    <ImageTarget name="Elephant" size="5.000000 3.595133" />
+  </Tracking>
+</QCARConfig>

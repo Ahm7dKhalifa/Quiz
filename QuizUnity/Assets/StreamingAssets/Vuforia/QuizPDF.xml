@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="KASHAF2" size="5.000000 7.123596" />
+    <ImageTarget name="SecondLesson" size="5.000000 7.015251" />
+    <ImageTarget name="Kashaf" size="5.000000 7.035011" />
+    <ImageTarget name="Cover" size="5.000000 7.315271" />
+  </Tracking>
+</QCARConfig>

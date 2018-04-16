@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Name: VuforiaConfiguration
   m_EditorClassIdentifier: 
   vuforia:
-    vuforiaLicenseKey: 
+    vuforiaLicenseKey: AX5tRCr/////AAAAGVvvnzm7Z0tsoC4OjY/uF3B952yBsYtCjYHXtP1r3velnb1oopaYmYTxon4u16bw696CJeKqqA43BAX3zyNER73IxH+xSF7Op7NMjJEP0f7TF/tneB9Dc+ac1zmzfnH4ppLzWm2clHnpys2UIBuQXnY7wcysHGfRwBh/rXNjJkfvtWOPLyomiA8gVCWzvH4P7Ipw2DOCzrgUHBEp3s+gFMDIIrAB/mBP9pdV3T134lF7yR0pNNcbOcQU18evVLZd/n5W+Uj6LQqI70AfrUSn3E3q8qqYQb2tZEVZk8RrHqHEBQs0HS7zibp9E5psbxhNCFAJZnLGmjM9H++pSba8foh/MHOvCyQs1dNisGrRe21F
     ufoLicenseKey: QWZZVnIxSC8vLy8vQUFBQUtOdFhKcHNQcVVzbXVmZGFEbmVMVGhwRFZhNG5Kd1JiWllpUitpQ0ZtWVY1SFJ4ZXhHRitTSnFiUTNLSHBiS3lURnBrNzdJT0VhbS96bUI4VXg2NHp2VFJpTE1BTXZmekgvVG9lS3R0Q1NIcit4TDhOY1d5ZWdvTHZIZWhESzZGd2N0SHFkUkY5dDZ0eDV3SlVoaXhYcWdrclZLRDEzR2JMTmlMYnZ2ZmwxTFB1b05sdWZMbXA3bkpSQmNwQm1vbkkvL2lIQTJlbGpyL0lUZGhJcW5LUWhWNXNTTGJiVGxCaDFJS2NPeUQ0Kzg5Q2hNQVJVcXVWMmMrbmV0a2hoT3dRRU51R0dJVnN3b3RieEoyeFE5b2p0YUZ6WkZYa1M1bHFUSEg4bDkzWC9tU1JtTnhod1U5MXdSTHRZWG1jUnBwaFpHQjFtNk9QS0dLdXdCWkJLWkJoMTVYQUxFb09FRDErQTM2c3ZIb25QeVY=
     delayedInitialization: 0
     cameraDeviceModeSetting: -1
@@ -24,11 +24,11 @@ MonoBehaviour:
   digitalEyewear:
     cameraOffset: 0.06
     distortionRenderingLayer: 31
-    eyewearType: 0
+    eyewearType: 2
     stereoFramework: 0
     seeThroughConfiguration: 0
-    viewerName: 
-    viewerManufacturer: 
+    viewerName: Generic Cardboard
+    viewerManufacturer: Vuforia
     useCustomViewer: 0
     customViewer:
       Version: 0
@@ -43,8 +43,12 @@ MonoBehaviour:
       FieldOfView: {x: 0, y: 0, z: 0, w: 0}
       ContainsMagnet: 0
   databaseLoad:
-    dataSetsToLoad: []
-    dataSetsToActivate: []
+    dataSetsToLoad:
+    - QuizPDF
+    - Quiz
+    dataSetsToActivate:
+    - QuizPDF
+    - Quiz
   videoBackground:
     clippingMode: 0
     numDivisions: 2
