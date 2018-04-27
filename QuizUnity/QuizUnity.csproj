@@ -332,7 +332,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\_APP\Scripts\AnimationByVB.cs" />
+    <Compile Include="Assets\_APP\Scripts\DisplayVideo.cs" />
     <Compile Include="Assets\_APP\Scripts\Prefabs\VirtualButtonEvents.cs" />
+    <Compile Include="Assets\_APP\Scripts\StopVideo.cs" />
     <Compile Include="Assets\GoogleVR\Demos\Scripts\DemoInputManager.cs" />
     <Compile Include="Assets\GoogleVR\Demos\Scripts\DemoSceneManager.cs" />
     <Compile Include="Assets\GoogleVR\Demos\Scripts\HelloVR\HeadsetDemoManager.cs" />
