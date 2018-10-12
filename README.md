@@ -1,8 +1,7 @@
 # Quiz
-##Teach Child By VR/AR/MR
+## Teach Child By VR/AR/MR
 I think this type of the apps will be the future of UI.
-not only that .. Also I think no well be hardware in the future for normal TV or computer or mobile. 
-## watch the video of prototype :
+## watch the video of the prototype :
 ### youtube :
 https://www.youtube.com/playlist?list=PLnMJYQ3DJlRszwCJXi-7kk-JQQbP2isOr 
 ### facebook
